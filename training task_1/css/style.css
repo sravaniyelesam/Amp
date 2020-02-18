@@ -1,0 +1,264 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700,900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f3f2f9;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+
+/*-- header css --*/
+header{
+	background-color: #2A2D40;
+    color: #FFFFFF;
+	height: 80px;
+    padding: 20px;
+}
+header h2{
+	text-align: center;
+	text-transform: capitalize;
+}
+
+
+/*- - path_1 css - -*/
+.path_1{
+	border-bottom: 1px solid #e7eaf3;
+	padding-bottom: 45px;
+}
+.path_1 .fa-ravelry{
+    font-size: 50px;
+    color: #3475a9;
+}
+.path_1 .btn-Company {
+    color: #377dff;
+    background: rgba(55, 125, 255, 0.1);
+    border-color: transparent;
+    padding: 10px;
+}
+.path_1 .btn-Company:hover {
+	color: #fff;
+    background: #377dff;
+}
+
+/*- - path_2 css - -*/
+.path_2 {
+    border-bottom: 1px solid #e7eaf3;
+    padding-top: 60px;
+}
+.dummy_text p {
+    color: #77838f;
+    line-height: 1.7;
+    font-size: 17px;
+}
+.for_btn {
+    border-radius: 50px;
+    color: #1e2022;
+    background-color: #f8fafd;
+    border-color: #f8fafd;
+}
+.for_btn:hover {
+    color: #1e2022;
+    background-color: #dae5f5;
+    border-color: #d0def2;
+    border-radius: 50px;
+}
+.technologys_list li a{
+    font-size: 11px;
+}
+
+
+/* media icon css start */
+.btn-icon.btn-xs {
+    position: relative;
+    font-size: 15px;
+    width: 30px;
+    height: 30px;
+    /*background-color: gray;*/
+}
+.btn-icon__inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-40%, -50%);
+}
+.btn-soft-primary {
+    color: #377dff;
+    background: rgba(55, 125, 255, 0.1);
+    border-color: transparent;
+}
+
+
+
+.btn-soft-success {
+    color: #00c9a7;
+    background: rgba(0, 201, 167, 0.1);
+    border-color: transparent;
+}
+.btn-soft-success: hover {
+    color: #00c9a7 !important;
+}
+
+.media .media-body{
+    font-size: 17px;
+}
+
+.card-body{
+    padding: 45px 30px 40px 45px;
+}
+.card_header {
+    color: #fff;
+    padding: 30px;
+}
+
+.card_full {
+    width: 100%;
+    padding-bottom: 60px;
+}
+.card_icon {
+    width: 15%;
+    float: left;
+}
+.card_icon i{
+   font-size: 17px;
+}
+.card_text {
+    width: 85%;
+    float: right;
+}
+.card_text span{
+    font-size: 16px;
+}
+.card_text a{
+     font-size: 16px;
+}
+.card_text small{
+    font-size: 12px;
+}
+
+.slack span{
+    font-size: 30px;
+}
+.slack span i{
+    margin-right: 20px;
+}
+.slack p{
+    color: #77838f;
+    font-size: 15px;
+}
+.slack h4{
+    font-weight: 600 !important;
+}
+.contact h4{
+    font-weight: 600 !important;
+}  
+
+.email_allerts{
+    /*box-shadow: 0 0 50px rgba(55, 125, 255, 0.4);*/
+    padding: 30px;
+}
+.email_allerts h3{
+    font-size: 25px;
+}
+.email_allerts p{
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 18px;
+}
+.form_expand{
+    padding-bottom: 27px;
+    padding-top: 27px;
+}
+.email_allerts .form-group{
+   position: relative;
+}
+.email_allerts .form-group button{
+    top: 0px;
+    position: absolute;
+    right: 0px;
+    border-radius: 0px;
+    padding-left: 25px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+}
+.email_allerts .form-group i{
+    font-size: 20px;
+}
+
+
+
+
+.similar_jobs h2{
+   margin-bottom: 20px;
+   font-weight: 500;
+}
+.domains .card-body{
+    padding: 25px !important;
+}
+.btn_propertys{
+    color: #ffc107;
+    background: rgba(255, 193, 7, 0.1);
+    border-color: transparent;
+    border-radius: 25px;
+    font-size: 13px;
+}
+.dropdown-menu.show {
+    display: block;
+    box-shadow: 0 5px 9px rgba(55, 125, 255, 0.075), 0 5px 9px rgba(119, 131, 143, 0.075);
+    border: none;
+    top: 6px;
+}
+.fa-paypal{
+    color:#070ff5;
+    font-size: 27px;
+    padding-bottom: 25px;
+}
+.link-clr {
+    color: #8c98a4;
+    border-bottom: 1px dashed #97a4af;
+}
+.devlopers a{
+   font-weight: 600;
+   color: #1e2022;
+}
+.devlopers a:hover {
+      color: #377dff;
+      font-weight: 600;
+}
+.talent{
+    text-align: center;.
+    color: #77838f;
+    font-size: 17px;
+}
+.domains .card-footer{
+    background: #ffff;
+}
+.domains .card-footer i{
+    font-size: 20px;
+}
+.card-footer-left{
+    width: 50%;
+    float: left;
+}
+.card-footer-right{
+    width: 50%;
+    float: left;
+}
+footer{
+    background-color: #2A2D40;
+    color: #FFFFFF;
+    height: 70px;
+    padding: 20px; 
+}
+footer h4{
+    text-align: center;
+}
